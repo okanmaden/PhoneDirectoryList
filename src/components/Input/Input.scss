@@ -1,0 +1,16 @@
+.form-input{
+    box-shadow: 7px 5px 8px 2px rgb(168, 86, 99);
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 25px;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+label{
+    color: white;
+}
+.invalid{
+    background-color: red;
+}

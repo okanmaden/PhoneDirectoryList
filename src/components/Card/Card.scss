@@ -1,0 +1,14 @@
+.card{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    gap: 50px;
+    text-align: center;
+    h1{
+        color: #fff;
+        font-family:cursive;
+    }
+}

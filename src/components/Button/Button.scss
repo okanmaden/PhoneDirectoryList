@@ -1,0 +1,29 @@
+.deneme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+$themecolor:rgb(168,86,99);
+@keyframes colorchanger {
+    to{background-color: $themecolor;}
+    to{color: #fff;}
+    to{border: 2px solid #fff;}
+    to{box-shadow: 4px 2px 5px gray;}
+    
+}
+.form-button{
+    border-radius: 10px;
+    box-shadow: 4px 2px 5px $themecolor;
+    width: 90px;
+    height: 30px;
+    border: 2px solid $themecolor;
+    background-color: #fff;
+    color: $themecolor;
+    display: block;
+    &:hover{
+        cursor: pointer;
+        animation: colorchanger 0.8s ease-in-out;
+        animation-fill-mode: forwards;
+    }
+}
+
